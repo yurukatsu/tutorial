@@ -5,6 +5,9 @@ Economist Harry Markowitz introduced MPT in a 1952 essay,[2] for which he was la
 
 ## Mathematical Model
 
-### Risk and expected return
+### Diversification
+An investor can reduce portfolio risk simply by holding combinations of instruments that are not perfectly positively correlated. In other words, investors can reduce their exposure to individual asset risk by holding a diversified portfolio of assets. Diversification may allow for the same portfolio expected return with reduced risk. The mean-variance framework for constructing optimal investment portfolios was first posited by Markowitz and has since been reinforced and improved by other economists and mathematicians who went on to account for the limitations of the framework.
 
-MPT assumes that investors are risk averse, meaning that given two portfolios that offer the same expected return, investors will prefer the less risky one. Thus, an investor will take on increased risk only if compensated by higher expected returns. Conversely, an investor who wants higher expected returns must accept more risk. The exact trade-off will not be the same for all investors. Different investors will evaluate the trade-off differently based on individual risk aversion characteristics. The implication is that a rational investor will not invest in a portfolio if a second portfolio exists with a more favorable risk-expected return profile – i.e., if for that level of risk an alternative portfolio exists that has better expected returns.
+If all the asset pairs have correlations of 0—they are perfectly uncorrelated—the portfolio's return variance is the sum over all assets of the square of the fraction held in the asset times the asset's return variance (and the portfolio standard deviation is the square root of this sum).
+
+If all the asset pairs have correlations of 1—they are perfectly positively correlated—then the portfolio return’s standard deviation is the sum of the asset returns’ standard deviations weighted by the fractions held in the portfolio. For given portfolio weights and given standard deviations of asset returns, the case of all correlations being 1 gives the highest possible standard deviation of portfolio return.
